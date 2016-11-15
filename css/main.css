@@ -1,0 +1,35 @@
+/*My own CSS*/
+
+html {
+	background: url(../img/chicago.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*Jumbotron*/
+.jumbotron {
+	background-color: #000;
+}
+
+.jumbotron h1 {
+	color: white;
+	text-align: left;
+}
+
+.jumbotron p {
+	color: white;
+	text-align: left;
+	font-size: 16px;
+}
+
+.jumbotron ul {
+	list-style-type: none;
+	margin-top: 100px;
+}
+
+.jumbotron ul li {
+	display: inline-block;
+	color: white;
+}
