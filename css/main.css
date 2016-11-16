@@ -40,6 +40,11 @@ html {
 	color: #fff;
 }
 
+.dropdown-menu li a:hover {
+	background-color: #ce1818;
+	color: #fff;
+}
+
 #hamburger {
 	margin-top: 35px;
 	margin-left: 400px;
@@ -48,6 +53,10 @@ html {
 }
 
 @media only screen and (max-width: 500px) {
+	.dropdown-menu {
+		margin-right: 0px;
+	}
+
 	#hamburger {
 		margin-top: -15px;
 		margin-left: 100px;
