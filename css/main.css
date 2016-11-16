@@ -24,12 +24,21 @@ html {
 	font-size: 16px;
 }
 
-.jumbotron ul {
-	list-style-type: none;
-	margin-top: 100px;
+.dropdown-menu {
+	background-color: white;
 }
 
-.jumbotron ul li {
+.dropdown-menu li {
 	display: inline-block;
-	color: white;
+
+}
+
+.dropdown-menu li a {
+	text-align: center;
+}
+
+#hamburger {
+	margin-top: 35px;
+	height: 50px;
+	width: 75px;
 }
