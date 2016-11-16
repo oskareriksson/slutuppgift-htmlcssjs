@@ -24,21 +24,32 @@ html {
 	font-size: 16px;
 }
 
+/*Hamburger dropdown*/
 .dropdown-menu {
-	background-color: white;
+	background-color: #ff0000;
+	margin-right: 115px;
 }
 
 .dropdown-menu li {
 	display: inline-block;
-
 }
 
 .dropdown-menu li a {
 	text-align: center;
+	font-size: 14px;
+	color: #fff;
 }
 
 #hamburger {
 	margin-top: 35px;
+	margin-left: 400px;
 	height: 50px;
 	width: 75px;
+}
+
+@media only screen and (max-width: 500px) {
+	#hamburger {
+		margin-top: -15px;
+		margin-left: 100px;
+	}
 }
