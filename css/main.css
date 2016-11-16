@@ -14,12 +14,12 @@ html {
 }
 
 .jumbotron h1 {
-	color: white;
+	color: #fff;
 	text-align: left;
 }
 
 .jumbotron p {
-	color: white;
+	color: #fff;
 	text-align: left;
 	font-size: 16px;
 }
@@ -63,7 +63,13 @@ html {
 	margin-left: 250px;
 }
 
+.transbox h2 {
+	color: #fff;
+}
 
+.transbox p {
+	color: #fff;
+}
 
 @media only screen and (max-width: 500px) {
 	.jumbotron h1 {
@@ -81,5 +87,9 @@ html {
 	#hamburger {
 		margin-top: -15px;
 		margin-left: 100px;
+	}
+
+	.transbox {
+		margin-left: 30px;
 	}
 }
