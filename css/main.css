@@ -8,6 +8,12 @@ html {
 	background-size: cover;
 }
 
+/*Hide scrollbar in Chrome*/
+::-webkit-scrollbar {
+	display: none;
+}
+/*-------------------*/
+
 /*Jumbotron*/
 .jumbotron {
 	background-color: #000;
