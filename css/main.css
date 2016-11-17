@@ -70,7 +70,16 @@ html {
 .transbox p {
 	color: #fff;
 }
+/*-------------------*/
 
+/*Thumbnail class styling added onto bootstraps existing one*/
+.thumbnail {
+	display: inline-block;
+	margin-right: 40px;
+	margin-top: 20px;
+	height: 150px;
+	width: 150px;
+}
 
 @media only screen and (max-width: 500px) {
 	.jumbotron h1 {
@@ -92,5 +101,11 @@ html {
 
 	.transbox {
 		margin-left: 30px;
+	}
+
+	.thumbnail {
+		display: inline-block;
+		height: 40px;
+		width: 40px;
 	}
 }
