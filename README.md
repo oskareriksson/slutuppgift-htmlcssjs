@@ -1,5 +1,12 @@
 # slutuppgift-htmlcssjs
 
-Slutuppgiften för kursen HTML, CSS, JavaScript och Webbstandarder.
+School-project, class YHJUST16 at Lernia Yrkeshögskola (Higher Vocational Education).
 
-Med det här projektet får vi visa läraren vad vi har lärt oss under kursen.
+Final assignment of the course "HTML, CSS, JavaScript and Webstandards".
+
+Technologies used: HTML for structure, CSS for styling, Bootstrap for additional styling/structure,
+JavaScript and jQuery for functionality and Git for version control.
+
+Made by: Oskar Eriksson
+
+Linkedin: Coming soon
