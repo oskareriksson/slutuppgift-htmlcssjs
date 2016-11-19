@@ -100,9 +100,17 @@ html {
 	color: #000;
 }
 
+/*Form error and success messages*/
+.firstname-error ,
+.lastname-error ,
 .email-error {
 	color: #ef0707;
 }
+
+.submit-success {
+	color: #63e534;
+}
+/*-------------------*/
 
 .footer {
 	height: 20px;
