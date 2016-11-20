@@ -1,5 +1,6 @@
 /*My own CSS*/
 
+/*Fixate fullscreen background image for most browsers*/
 html {
 	background: url(../img/chicago.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -7,6 +8,7 @@ html {
 	-o-background-size: cover;
 	background-size: cover;
 }
+/*-------------------*/
 
 /*Hide scrollbar in Chrome*/
 ::-webkit-scrollbar {
@@ -86,6 +88,7 @@ html {
 	height: 150px;
 	width: 150px;
 }
+/*-------------------*/
 
 .contact-form {
 	width: 60%;
@@ -104,7 +107,8 @@ html {
 .firstname-error ,
 .lastname-error ,
 .email-error {
-	color: #ef0707;
+	background-color: #ef0707;
+	width: 28%;
 }
 
 .submit-success {
@@ -112,6 +116,7 @@ html {
 }
 /*-------------------*/
 
+/*Footer*/
 .footer {
 	height: 20px;
 	margin-top: 20px;
@@ -119,6 +124,7 @@ html {
 	background-color: #000;
 	text-align: center;
 }
+/*-------------------*/
 
 @media only screen and (max-width: 500px) {
 	.jumbotron h1 {

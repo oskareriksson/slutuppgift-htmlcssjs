@@ -1,4 +1,6 @@
 //My own jQuery
+
+//Hamburger menu toggle function
 var menu = function() {
 $("#hamburger").click(function(){
 	$(".dropdown-menu").toggle("slow");
@@ -10,6 +12,7 @@ $("li a").click(function(){
 
 };
 
+//Form input-checking function
 var formSubmit = function() {
 	$("form").submit(function(){
 		var firstName = $("#firstname").val();
@@ -35,12 +38,12 @@ var formSubmit = function() {
 		var email = $("#email").val();
 
 		if(email === "") {
-			$(".email-error").text("Please enter your email")
+			$(".email-error").text("Please enter your email.")
 		};
 
 		return false;
 	});
-	
+
 };
 
 $(document).ready(menu);
