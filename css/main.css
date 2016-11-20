@@ -80,6 +80,10 @@ html {
 }
 /*-------------------*/
 
+section	{
+	margin-top: 70px;
+}
+
 /*Thumbnail class styling added onto bootstraps existing one*/
 .thumbnail {
 	display: inline-block;

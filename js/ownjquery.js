@@ -43,7 +43,6 @@ var formSubmit = function() {
 
 		return false;
 	});
-
 };
 
 $(document).ready(menu);
