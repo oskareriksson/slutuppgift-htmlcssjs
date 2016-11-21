@@ -52,6 +52,14 @@ var tnhover = function(){
 	});
 };
 
+//Thumbnail click-function
+var tnclick = function() {
+	$(".thumbnail").click(function(){
+		$(this).toggleClass("thumbnail-highlight");
+	});
+};
+
 $(document).ready(menu);
 $(document).ready(tnhover);
+$(document).ready(tnclick);
 $(document).ready(formSubmit);
