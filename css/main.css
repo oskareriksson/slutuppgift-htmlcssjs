@@ -102,11 +102,6 @@ section	{
 	height: 500px;
 	width: 500px;
 }
-
-.thumbnail-mini {
-	height: 30px;
-	width: 30px;
-}
 /*-------------------*/
 
 .contact-form {
@@ -131,7 +126,9 @@ section	{
 }
 
 .submit-success {
-	color: #63e534;
+	background-color: #63e534;
+	width: 40%;
+	margin-top: 10px;
 }
 /*-------------------*/
 

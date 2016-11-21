@@ -16,44 +16,44 @@ $("li a").click(function(){
 var formSubmit = function() {
 	$(".btn").on("click", function(){
 		var firstName = $("#firstname").val();
+		var lastName = $("#lastname").val();
+		var email = $("#email").val();
 
 		if(firstName === "") {
 			$(".firstname-error").text("Please enter your first name.")
-
-			return false;
 		};
 
 		if(firstName.length > 0){
 			$(".firstname-error").empty();
 		};
-	});
-
-	$(".btn").on("click", function(){
-		var lastName = $("#lastname").val();
 
 		if(lastName === "") {
 			$(".lastname-error").text("Please enter your last name.")
-
-			return false;
 		};
 
 		if(lastName.length > 0){
 			$(".lastname-error").empty();
 		};
-	});
-
-	$(".btn").on("click", function(){
-		var email = $("#email").val();
 
 		if(email === "") {
 			$(".email-error").text("Please enter your email.")
-
-			return false;
 		};
 
 		if(email.length > 0){
 			$(".email-error").empty();
 		};
+
+		if(firstName.length > 0 && lastName.length > 0 && email.length > 0) {
+			$(".submit-success").text("Thank you! Alan will contact you shortly.")
+
+			$("#firstname").val("");
+			$("#lastname").val("");
+			$("#email").val("");
+		} else {
+			$(".submit-success").empty();
+		};
+
+		return false;
 	});
 };
 
