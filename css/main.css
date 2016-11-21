@@ -135,6 +135,7 @@ section	{
 /*Footer*/
 .footer {
 	margin-top: 20px;
+	margin-bottom: -10px;
 	color: #fff;
 	background-color: #000;
 	text-align: center;
