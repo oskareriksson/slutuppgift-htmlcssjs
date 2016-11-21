@@ -45,5 +45,13 @@ var formSubmit = function() {
 	});
 };
 
+//Thumbnail hover function
+var tnhover = function(){
+	$(".thumbnail").hover(function(){
+		$(this).toggleClass("thumbnail-hover");
+	});
+};
+
 $(document).ready(menu);
+$(document).ready(tnhover);
 $(document).ready(formSubmit);
