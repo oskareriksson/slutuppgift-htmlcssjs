@@ -14,34 +14,46 @@ $("li a").click(function(){
 
 //Form input-checking function
 var formSubmit = function() {
-	$("form").submit(function(){
+	$(".btn").on("click", function(){
 		var firstName = $("#firstname").val();
 
 		if(firstName === "") {
 			$(".firstname-error").text("Please enter your first name.")
+
+			return false;
 		};
 
-		return false;
+		if(firstName.length > 0){
+			$(".firstname-error").empty();
+		};
 	});
 
-	$("form").submit(function(){
+	$(".btn").on("click", function(){
 		var lastName = $("#lastname").val();
 
 		if(lastName === "") {
 			$(".lastname-error").text("Please enter your last name.")
+
+			return false;
 		};
 
-		return false;
+		if(lastName.length > 0){
+			$(".lastname-error").empty();
+		};
 	});
 
-	$("form").submit(function(){
+	$(".btn").on("click", function(){
 		var email = $("#email").val();
 
 		if(email === "") {
 			$(".email-error").text("Please enter your email.")
+
+			return false;
 		};
 
-		return false;
+		if(email.length > 0){
+			$(".email-error").empty();
+		};
 	});
 };
 
