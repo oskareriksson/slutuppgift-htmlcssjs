@@ -16,6 +16,13 @@ html {
 }
 /*-------------------*/
 
+/*Text standards*/
+h1, h2, h3, p, li {
+	font-family: "Raleway", sans-serif;
+	color: #fff;
+}
+/*-------------------*/
+
 /*Jumbotron*/
 .jumbotron {
 	background-color: #000;
@@ -27,7 +34,6 @@ html {
 }
 
 .jumbotron p {
-	color: #fff;
 	text-align: left;
 	font-size: 16px;
 }
@@ -71,18 +77,14 @@ html {
 	margin-left: 250px;
 }
 
-.transbox h2 {
-	color: #fff;
-}
-
 .transbox p {
-	color: #fff;
+	font-size: 25px;
 }
-/*-------------------*/
 
 section	{
 	margin-top: 70px;
 }
+/*-------------------*/
 
 /*Thumbnail class styling added onto bootstraps existing one*/
 .thumbnail {
@@ -104,18 +106,19 @@ section	{
 }
 /*-------------------*/
 
+/*Contact form*/
 .contact-form {
 	width: 60%;
 }
 
-.white {
+label {
 	color: #fff;
 }
 
 .center {
 	text-align: center;
-	color: #000;
 }
+/*-------------------*/
 
 /*Form error and success messages*/
 .firstname-error ,
@@ -139,6 +142,10 @@ section	{
 	color: #fff;
 	background-color: #000;
 	text-align: center;
+}
+
+.footer p {
+	font-size: 14px;
 }
 /*-------------------*/
 
