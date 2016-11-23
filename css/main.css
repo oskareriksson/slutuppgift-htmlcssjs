@@ -157,27 +157,48 @@ label {
 }
 /*-------------------*/
 
-@media only screen and (max-width: 500px) {
-	.jumbotron h1 {
+/*Media querie for iPhone 6*/
+@media only screen and (max-width: 380px) {
+	/*Jumbotron*/
+	.jumbotron h1,
+	.jumbotron p
+	{
 		text-align: center;
 	}
+	/*-------------------*/
 
-	.jumbotron p {
-		text-align: center;
+	/*Hamburger dropdown*/
+	#hamburger {
+		margin-top: -10px;
+		margin-left: 145px;
 	}
 
 	.dropdown-menu {
 		margin-right: 0px;
+		width: 375px;
+		text-align: center;
 	}
+	/*-------------------*/
 
-	#hamburger {
-		margin-top: -15px;
-		margin-left: 100px;
-	}
-
+	/*Transbox*/
 	.transbox {
-		margin-left: 30px;
+		margin-top: -20px;
+		margin-left: 50px;
 	}
+
+	.transbox h2,
+	.transbox p {
+		text-align: center;
+	}
+
+	.transbox p {
+		font-size: 16px;
+	}
+
+	section {
+		margin-top: -5px;
+	}
+	/*-------------------*/
 
 	.thumbnail {
 		display: inline-block;
