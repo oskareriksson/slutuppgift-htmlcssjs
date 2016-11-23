@@ -118,11 +118,15 @@ label {
 .center {
 	text-align: center;
 }
+
+.form-group p {
+	font-size: 14px;
+}
 /*-------------------*/
 
 /*Form error and success messages*/
-.firstname-error ,
-.lastname-error ,
+.firstname-error,
+.lastname-error,
 .email-error {
 	background-color: #ef0707;
 	width: 28%;
@@ -132,6 +136,10 @@ label {
 	background-color: #63e534;
 	width: 40%;
 	margin-top: 10px;
+}
+
+#success {
+	font-size: 14px;
 }
 /*-------------------*/
 

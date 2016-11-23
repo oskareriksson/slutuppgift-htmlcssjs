@@ -3,6 +3,7 @@
 //p-element defined and styled
 var tip = document.createElement("p");
 tip.style.backgroundColor = "#c99a76";
+tip.style.fontSize = "14px";
 tip.style.textAlign = "center";
 tip.style.margin = "auto";
 tip.style.width = "55%";
@@ -22,6 +23,6 @@ function socialMedia() {
 	//result, which means that it inserts the newNode (tip) as a child of <form>. And since ptag.nextSibling
 	//is the referenceNode of our method, it searches for the next sibling of ptag. But since there currently is none it will return null.
 	//But the .insertBefore still does its job and inserts tip before ptag.nextSibling(which doesnt exist) and therefore tip itself becomes the
-	//next sibling of ptag.
+	//next sibling of ptag, i.e last child of <form> and placed after the form success message.
 	ptag.parentNode.insertBefore(tip, ptag.nextSibling);
 };
