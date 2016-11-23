@@ -101,8 +101,8 @@ section	{
 }
 
 .thumbnail-highlight {
-	height: 500px;
-	width: 500px;
+	height: 450px;
+	width: 450px;
 }
 /*-------------------*/
 
@@ -170,7 +170,7 @@ label {
 	/*Hamburger dropdown*/
 	#hamburger {
 		margin-top: -10px;
-		margin-left: 145px;
+		margin-left: 140px;
 	}
 
 	.dropdown-menu {
@@ -200,9 +200,35 @@ label {
 	}
 	/*-------------------*/
 
+	/*Thumbnail*/
 	.thumbnail {
 		display: inline-block;
+		margin-left: 35px;
+		margin-right: 5px;
 		height: 40px;
 		width: 40px;
 	}
+
+	.thumbnail-highlight {
+		height: 250px;
+		width: 250px;
+		margin-left: 16px;
+		margin-right: 0px;
+		margin-top: 0px;
+	}
+	/*-------------------*/
+
+	/*Form error and success messages*/
+	.firstname-error,
+	.lastname-error,
+	.email-error {
+		width: 100%;
+	}
+
+	.submit-success {
+	width: 100%;
+	}
+	/*-------------------*/
+
+	-webkit-appearance: none;
 }
