@@ -183,7 +183,7 @@ label {
 	/*Transbox*/
 	.transbox {
 		margin-top: -20px;
-		margin-left: 50px;
+		margin-left: 47px;
 	}
 
 	.transbox h2,
@@ -227,6 +227,53 @@ label {
 
 	.submit-success {
 	width: 100%;
+	}
+	/*-------------------*/
+}
+/*-------------------*/
+
+/*Media querie for Samsung Galaxy Note 10.1 NT8010*/
+@media only screen
+	and (min-width: 800px) 
+	and (max-width: 1280px) {
+
+	/*Jumbotron*/
+	.jumbotron h1,
+	.jumbotron p {
+		text-align: center;
+	}
+	/*-------------------*/
+
+	/*Transbox*/
+	.transbox {
+		margin-top: 10px;
+		margin-left: 160px;
+		margin-right: -20px;
+	}
+
+	.transbox p {
+		font-size: 18px;
+		width: 70%;
+		margin-right: -40px;
+	}
+	/*-------------------*/
+
+	/*Thumbnail*/
+	.thumbnail {
+		margin-right: 30px;
+		height: 90px;
+		width: 90px;
+	}
+
+	.thumbnail-highlight {
+		height: 300px;
+		width: 300px;
+	}
+	/*-------------------*/
+
+	/*Form error and success messages*/
+	.form-group {
+		width: 80%;
 	}
 	/*-------------------*/
 }
