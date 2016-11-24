@@ -9,4 +9,4 @@ JavaScript and jQuery for functionality and Git for version control.
 
 Made by: Oskar Eriksson
 
-Linkedin: Coming soon
+(https://se.linkedin.com/in/oskar-eriksson-827748133 "Linkedin")
