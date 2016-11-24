@@ -238,9 +238,12 @@ label {
 	and (max-width: 1280px) {
 
 	/*Jumbotron*/
-	.jumbotron h1,
-	.jumbotron p {
+	.jumbotron h1 {
 		text-align: center;
+	}
+
+	.jumbotron p {
+		margin-left: 85px;
 	}
 	/*-------------------*/
 
@@ -296,9 +299,20 @@ label {
 	}
 
 	.submit-success {
-		width: 30%;
-		margin-left: 70px;
+		margin-left: 50px;
 	}
+
+	#success {
+		margin-top: 20px;
+		width: 55%;
+		font-size: 18px;
+	}
+	/*-------------------*/
+
+	/*Footer*/
+		.footer p {
+			margin-left: 145px;
+		}
 	/*-------------------*/
 }
 /*-------------------*/
