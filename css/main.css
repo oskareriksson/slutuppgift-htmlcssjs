@@ -266,14 +266,38 @@ label {
 	}
 
 	.thumbnail-highlight {
-		height: 300px;
-		width: 300px;
+		display: block;
+		height: 325px;
+		width: 325px;
+	}
+	/*-------------------*/
+
+	/*Form header*/
+	h3 {
+		margin-right: 210px;
+	}
+	/*-------------------*/
+
+	/*Contact form*/
+	.form-group {
+		margin-right: 210px;
+	}
+
+	.btn {
+		margin-right: 210px;
 	}
 	/*-------------------*/
 
 	/*Form error and success messages*/
-	.form-group {
-		width: 80%;
+	.firstname-error,
+	.lastname-error,
+	.email-error {
+		margin-left: 70px;
+	}
+
+	.submit-success {
+		width: 30%;
+		margin-left: 70px;
 	}
 	/*-------------------*/
 }
