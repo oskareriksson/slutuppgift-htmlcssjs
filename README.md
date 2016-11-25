@@ -22,7 +22,7 @@
 
 ### Description
 
-
+A website made for a fictional photographer Alan Alanson. The website features his work and allows the user to get in touch with him by entering their information in a form.
 
 ### Workflow
 
@@ -34,4 +34,10 @@ Other than that I am satisfied with the end result. Its looks the way I want it 
 
 * Making some sort of image slider for each category, so you can preview the pictures in higher resolution.
 * Connecting the form funcitonality to back-end so that it actually sends something and not just clear the inputs.
-* 
+* Make the social media tip actually link to a persons social media(if the site is made for an actual person).
+
+#### Website live at: https://oskareriksson.github.io/slutuppgift-htmlcssjs/
+
+### Made by: Oskar Eriksson
+
+### [Linkedin](https://se.linkedin.com/in/oskar-eriksson-827748133 "Linkedin")
