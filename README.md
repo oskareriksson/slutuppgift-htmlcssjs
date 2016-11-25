@@ -1,13 +1,9 @@
-# slutuppgift-htmlcssjs
+# HTML/CSS/JavaScript and Webstandards - Final assignment
 
-School-project, class YHJUST16 at Lernia Yrkeshögskola (Higher Vocational Education).
+## School: Lernia Stockholm, Sweden.
 
-Final assignment of the course "HTML, CSS, JavaScript and Webstandards".
+## Program: JavaScript developer - Front End.
 
-Technologies used: HTML for structure, CSS for styling, Bootstrap for additional styling/structure,
-JavaScript and jQuery for functionality and Git for version control.
+## Class: YHJUST16.
 
-Made by: Oskar Eriksson.
-
-[Linkedin](https://se.linkedin.com/in/oskar-eriksson-827748133 "Linkedin")
-
+## Course: HTML/CSS/JavaScript and Webstandards.
