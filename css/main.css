@@ -141,6 +141,13 @@ label {
 #success {
 	font-size: 14px;
 }
+
+.tips {
+	background-color: #c99a76;
+	text-align: center;
+	margin: auto;
+	width: 55%;
+}
 /*-------------------*/
 
 /*Footer*/
@@ -228,6 +235,11 @@ label {
 	.submit-success {
 	width: 100%;
 	}
+
+	.tips {
+		margin: 0;
+		width: 100%;
+	}
 	/*-------------------*/
 }
 /*-------------------*/
@@ -306,6 +318,10 @@ label {
 		margin-top: 20px;
 		width: 55%;
 		font-size: 18px;
+	}
+
+	.tips {
+		margin-left: -3px;
 	}
 	/*-------------------*/
 

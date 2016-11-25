@@ -2,11 +2,8 @@
 
 //p-element defined and styled
 var tip = document.createElement("p");
-tip.style.backgroundColor = "#c99a76";
+tip.className = "tips";
 tip.style.fontSize = "14px";
-tip.style.textAlign = "center";
-tip.style.margin = "auto";
-tip.style.width = "55%";
 
 //Text added to p-element
 var txt = document.createTextNode("Psst! You can also find Alan on various social media.")
