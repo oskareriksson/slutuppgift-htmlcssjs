@@ -35,7 +35,7 @@ Other than that I am satisfied with the end result. Its looks the way I want it 
 * Making some sort of image slider for each category, so you can preview the pictures in higher resolution.
 * Connecting the form funcitonality to back-end so that it actually sends something and not just clear the inputs.
 * Make the social media tip actually link to a persons social media(if the site is made for an actual person).
-* Made some additions to the validate forms function so that it checks for a valid email adress and not just > 0 characters.
+* Make some additions to the validate forms function so that it checks for a valid email adress and not just > 0 characters.
 * Optimize image sizes for faster loading on all devices.
 
 #### Website live at: https://oskareriksson.github.io/slutuppgift-htmlcssjs/
