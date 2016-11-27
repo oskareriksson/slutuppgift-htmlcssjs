@@ -17,7 +17,7 @@
 #### Properly tested resolutions
 
 * 1920x1080px, desktop.
-* 1280x800px, Samsung Galaxy tablet, landscape.
+* 1280x800px, Samsung Galaxy Note 10.1 tablet, landscape.
 * 375x559px, iPhone 6, portrait.
 
 #### Description
