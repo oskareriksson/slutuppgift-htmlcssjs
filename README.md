@@ -43,3 +43,7 @@ Other than that I am satisfied with the end result. Its looks the way I want it 
 ### Made by: Oskar Eriksson
 
 ### [Linkedin](https://se.linkedin.com/in/oskar-eriksson-827748133 "Linkedin")
+
+### Project finished 11/28-16
+
+### Grade: VG (IG/G/VG)
